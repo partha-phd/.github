@@ -13,5 +13,59 @@ Therefore, it is crucial to reason about the motion behavior of the traffic part
 Thus, a machine learning approach has been adopted for computing pOGMs. A number of novel machine learning architectures based on random forests, denoising autoencoders, deconvolution networks, and convolutional variational autoencoders have been developed in this work. Additionally, a novel enriched representation of the current instance of a traffic scenario termed as the augmented Occupancy Grid Map (aOGM), has been introduced in this work to serve as the input for the machine learning algorithms. The developed algorithms have been using real-world data collected from three different road infrastructures: T-junctions, roundabouts, and highways. The applications of pOGMs in improving crucial vehicle safety components such as trajectory planning and criticality estimation have also been demonstrated. 
 
 ## Publications
-
+The core publications related to this work are: 
+- Parthasarathy Nadarajan and Michael Botsch. Probability estimation for predicted-occupancy grids in vehicle safety applications based on machine learning. *In 2016 IEEE Intelligent Vehicles Symposium (IV)*, pages 1285−1292. IEEE, 2016.
+    - To cite this work in your research, please use:
+      ```bibtex
+      @inproceedings{nadarajan2016probability,
+        author={Nadarajan, Parthasarathy and Botsch, Michael},
+        booktitle={2016 IEEE Intelligent Vehicles Symposium (IV)},
+        pages={1285--1292},
+        year={2016},
+        organization={IEEE}
+      }
+      ```
+- Parthasarathy Nadarajan, Michael Botsch, and Sebastian Sardina. Predicted-occupancy grids for vehicle safety applications based on autoencoders and the random forest algorithm. *In 2017 International Joint Conference on Neural Networks (IJCNN)*, pages 1244−1251. IEEE, 2017.
+    - To cite this work in your research, please use:
+      ```bibtex
+      @inproceedings{nadarajan2017predicted,
+      title={Predicted-occupancy grids for vehicle safety applications based on autoencoders and the random forest algorithm},
+      author={Nadarajan, Parthasarathy and Botsch, Michael and Sardina, Sebastian},
+      booktitle={2017 International Joint Conference on Neural Networks (IJCNN)},
+      pages={1244--1251},
+      year={2017},
+      organization={IEEE}
+      }
+      ```
+- Parthasarathy Nadarajan, Michael Botsch, and Sebastian Sardina. Machine learning architectures for the estimation of predicted occupancy grids in road traffic. *Journal of Advances in Information Technology*, 9(1) : 1−9, 2018.
+    - To cite this work in your research, please use:
+      ```bibtex
+      @article{nadarajan2018machine,
+      title={Machine learning architectures for the estimation of predicted occupancy grids in road traffic},
+      author={Nadarajan, Parthasarathy and Botsch, Michael and Sardina, Sebastian},
+      journal={Journal of Advances in Information Technology},
+      volume={9},
+      number={1},
+      pages={1--9},
+      year={2018},
+      publisher={Engineering and Technology Publishing}
+      }
+      ```
+- Parthasarathy Nadarajan, Michael Botsch, and Sebastian Sardina. Continuous probabilistic motion prediction based on latent space interpolation. *In 2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)*, pages 3796−3803. IEEE, 2023.
+    - To cite this work in your research, please use:
+      ```bibtex
+      @inproceedings{nadarajan2023continuous,
+      title={Continuous Probabilistic Motion Prediction Based on Latent Space Interpolation},
+      author={Nadarajan, Parthasarathy and Botsch, Michael and Sardina, Sebastian},
+      booktitle={2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)},
+      pages={3796--3803},
+      year={2023},
+      organization={IEEE}
+      }
+      ```
+  
 ## Repositories
+The source code to the algorithms developed during this work are provided in the following links: 
+- Model Based Interaction-Aware Motion Prediction: [Repo link](https://github.com/partha-phd/motion-prediction-using-feature-learning.git).
+- Machine Learning Based Interaction-Aware Motion Prediction: [Repo link](https://github.com/partha-phd/motion-prediction-using-feature-learning.git) and [Repo for Interpolation](https://github.com/partha-phd/motion-prediction-using-interpolation.git).
+- Applications of pOGMs in Vehicle Safety (Trajectory Planning): [Repo link](https://github.com/partha-phd/trajectory-planning-using-RRT.git).
